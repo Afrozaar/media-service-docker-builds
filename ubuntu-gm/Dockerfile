@@ -6,5 +6,5 @@ VOLUME /tmp
 #RUN cat /etc/apk/repositories
 RUN apt-get update && \
  apt-get upgrade -y && \
-  apt-get install -y ffmpeg youtube-dl webp libwebp-dev libxml2 exiftool graphicsmagick ghostscript file; exit 0; 
+  apt-get install -y mediainfo ffmpeg youtube-dl webp libwebp-dev libxml2 exiftool graphicsmagick ghostscript file; exit 0; 
 
