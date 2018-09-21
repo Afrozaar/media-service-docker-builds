@@ -1,0 +1,3 @@
+Package: graphicsmagick*, libgraphicsmagick*
+Pin: release n=buster
+Pin-Priority: 1000
