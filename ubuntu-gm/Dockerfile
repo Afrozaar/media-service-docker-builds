@@ -13,3 +13,4 @@ RUN apt-get update && apt-cache policy && apt-cache policy graphicsmagick && \
    apt-get install -y mediainfo ffmpeg webp libwebp-dev libxml2 exiftool graphicsmagick ghostscript file; exit 0;
 ADD https://yt-dl.org/downloads/latest/youtube-dl /usr/bin/youtube-dl
 RUN chmod a+rx /usr/bin/youtube-dl
+# RUN apt-get install -y python For some retarded reason if you install python in the base then it dissappears in the media-service docker WTF?
